@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"path/filepath"
 
-	notationregistry "github.com/notaryproject/notation-go/pkg/registry"
+	notationregistry "github.com/notaryproject/notation-go/registry"
 	"github.com/notaryproject/notation/internal/osutil"
 	"github.com/notaryproject/notation/pkg/cache"
 	"github.com/notaryproject/notation/pkg/config"
