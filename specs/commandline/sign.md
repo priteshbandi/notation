@@ -34,7 +34,7 @@ Flags:
   -k,  --key string                 signing key name, for a key previously added to notation's key list.
   -p,  --password string            password for registry operations (default to $NOTATION_PASSWORD if not specified)
        --plain-http                 registry access via plain HTTP
-       --plugin-config stringArray  {key}={value} pairs that are passed as it is to a plugin, refer plugin's documentation to set appropriate values
+  -c,  --plugin-config stringArray  {key}={value} pairs that are passed as it is to a plugin, refer plugin's documentation to set appropriate values
        --signature-format string    signature envelope format, options: "jws", "cose" (default "jws")
        --signature-manifest string  manifest type for signature, options: "image", "artifact" (default "artifact")
   -u,  --username string            username for registry operations (default to $NOTATION_USERNAME if not specified)
